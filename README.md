@@ -1,1 +1,1 @@
-A
+O código a seguir é uma automação para download de arquivos do Sistema Tributário Brasileiro (ReceitaNetBX). Logo, é composto por uma API desenvolvida na linguagem Pascal e ambiente Delpi, por conseguinte, tendo como automação o ambiente (Sikulix - Jython)
