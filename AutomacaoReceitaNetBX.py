@@ -818,7 +818,7 @@ PASTA_DOWNLOAD = r"C:\Users\patrick\Documents\Arquivos ReceitanetBX" #Caminho on
 arquivoReceitaNet = r"C:\Program Files (x86)\Programas RFB\Receitanet BX\executar.bat" #Caminho do arquivo .bat para abrir o ReceitaNetBX
 
 
-url = "http://192.168.5.176:2781/automacao_receita_bx/AutomacaoReceitaBX/PegarProximaParadaPraBaixar" #URL destacando a função da API responsável por ordenar os valores JSON
+url = ".env/automacao_receita_bx/AutomacaoReceitaBX/PegarProximaParadaPraBaixar" #URL destacando a função da API responsável por ordenar os valores JSON
 response = http_get(url) #Requisição GET
 Debug.log(3, response)
 
