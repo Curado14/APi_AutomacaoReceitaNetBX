@@ -12,7 +12,7 @@ from java.io import BufferedReader, InputStreamReader
 import unicodedata
 from urllib import urlencode
 import re
-
+#
 #FINALIDADE DA FUNÇÃO: retirar caracteres especiais para facilitar a leitrua OCR
 def normalizar_texto(s):    
     if not s:
